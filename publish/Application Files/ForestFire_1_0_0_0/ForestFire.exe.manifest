@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ForestFire.exe" version="1.0.0.0" publicKeyToken="d40b7a6480b527eb" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ForestFire" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ForestFire.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ForestFire.exe" size="13792">
+      <assemblyIdentity name="ForestFire" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gBI4VqEQcBj4rtZlSROsd1AbJ+rTZ5QSGBUa3Q6wItE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ForestFire.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-SP8KTKQ\rasch" issuerKeyHash="b498eb57d2708db6f3b53bc77532b4c1a4a24c81" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XPbzVavr4va5s5ks+NWhFHuFILSR5gt+k9ZUZ+sZioU=</DigestValue></Reference></SignedInfo><SignatureValue>K8ckJBoWG8EVYxt1Y9pII7h0qxAs7ALNYeEEeCXkdpmFbwgPLDN3CT1KfOi8gIaQEs/plCK4B4HvH6X27W5cHIG0kTPCRBi2mq7tPyXvheslwI4X859yNyHMknu33dm0MVuUqxsfWojYkBTt69yqU1A9aZmWbl5RSMHzW/494rI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2IrH6gWZPe405gAWgLwoEe0ZKj5yIAVwCSncFriL/Q9asRqtO20HXQKkTiLl8JyQh9EOcg9RnLqVs4GrM3QfnmMgInpbebho/jlNacKj45p90YKQZO0ldc5HHSYea7qmccyDQ67G+qxyXpJMn9sisvkwpU3wbCyr0qiywicpoE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="858a19eb6754d6937e0be691b420857b14a1d5f82c99b3b9f6e2ebab55f3f65c" Description="" Url=""><as:assemblyIdentity name="ForestFire.exe" version="1.0.0.0" publicKeyToken="d40b7a6480b527eb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-SP8KTKQ\rasch</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>p326ddAR6YgQylOS51eCR/4U4uKmHJj9/QcRGdC5wFw=</DigestValue></Reference></SignedInfo><SignatureValue>kgyzX//Dkx3BUrH+fVVseJjqEtTfyxfLHWa1k3li0vN0wn7Fy4BQVfPkm72esMGxOAWOnzg5JxCityjj2El4JbveVp/MFsD4bWm7YGlM6z+opebG0L/jLWzCRi408oW0EGvgmhdtXh4dy1+wPs++t0Dx5nQQHYGQzdEB8XuMIsY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2IrH6gWZPe405gAWgLwoEe0ZKj5yIAVwCSncFriL/Q9asRqtO20HXQKkTiLl8JyQh9EOcg9RnLqVs4GrM3QfnmMgInpbebho/jlNacKj45p90YKQZO0ldc5HHSYea7qmccyDQ67G+qxyXpJMn9sisvkwpU3wbCyr0qiywicpoE0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQfKxR7hbBtphDbO4RZl1WUTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMAUAA4AEsAVABLAFEAXAByAGEAcwBjAGgwHhcNMTYwMzIwMjEyNzMwWhcNMTcwMzIxMDMyNzMwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFMAUAA4AEsAVABLAFEAXAByAGEAcwBjAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANiKx+oFmT3uNOYAFoC8KBHtGSo+ciAFcAkp3Ba4i/0PWrEarTttB10CpE4i5fCckIfRDnIPUZy6lbOBqzN0H55jICJ6W3m4aP45TWnCo+OafdGCkGTtJXXORx0mHmu6pnHMg0Ouxvqscl6STJ/bIrL5MKVN8Gwsq9KossInKaBNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAwlW6VkpP0tzpkWLl3MbWACyiOpiXuJ2EiT9VX7WIPxYnbHuovS8O1tPGm7QWX6nQTKVgy0nOXTqU+QLs6pVGZ+AuEUhsZxqjhedRGav5cHYvB6WoAAtl+dKUl3mcnzHRb8zBHzWyB7N6KBe6RJ6b0uz2LJDTnGHxb2yjkObQN7Q=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
